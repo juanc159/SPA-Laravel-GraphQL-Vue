@@ -17,3 +17,5 @@ PROYECTO SPA GESTION DE PROYECTOS
         composer require rebing/graphql-laravel
 
         php artisan vendor:publish --provider="Rebing\GraphQL\GraphQLServiceProvider"
+
+4. se elaboraran las tablas necesarias para este proyecto
