@@ -21,12 +21,12 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
-        DB::table('project_user')->truncate();
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');// desconecta las claves foraneas
+        DB::table('project_user')->truncate(); //truncate es para borrar informacion de la tabla en dado caso
         Project::truncate();
         Task::truncate();
         User::truncate();
-        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');// activa las claves foraneas
 
         $admin = User::create([
             'name' => 'Super Admin',

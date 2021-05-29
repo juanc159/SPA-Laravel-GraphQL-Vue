@@ -2,6 +2,9 @@
 
 declare(strict_types = 1);
 
+use App\GraphQL\Queries\ProjectsQuery;
+use App\GraphQL\Type\ProjectType;
+
 return [
     // The prefix for routes
     'prefix' => 'graphql',
@@ -103,6 +106,7 @@ return [
         'default' => [
             'query' => [
                 // ExampleQuery::class,
+                'projects' => ProjectsQuery::class
             ],
             'mutation' => [
                 // ExampleMutation::class,
@@ -128,6 +132,7 @@ return [
         // ExampleType::class,
         // ExampleRelationType::class,
         // \Rebing\GraphQL\Support\UploadType::class,
+        'project' => ProjectType::class
     ],
 
     // The types will be loaded on demand. Default is to load all types on each request

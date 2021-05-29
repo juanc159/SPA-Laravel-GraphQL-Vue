@@ -25,3 +25,4 @@ PROYECTO SPA GESTION DE PROYECTOS
 5. configuramos nuestros modelos con la propiedad fillable y la relacion entre este modelo con las demas tablas.
     tambien se desarrollo en el archivo seeders una logica para probar la base de datos
     
+6. como queremos usar GRAPHQL debemos definir nuestros TYPES
