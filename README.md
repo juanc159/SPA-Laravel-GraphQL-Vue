@@ -59,4 +59,5 @@ PROYECTO SPA GESTION DE PROYECTOS
 9. modificar el archivo wellcome o la vista inicial
     ver los archivos modificados en el git desde el componente creado, el archivo welcome modificado etc
 
-
+// problemas: no se muestra los registros de la tabla proyectos, quede en el video 8 del tutorial 
+https://www.youtube.com/watch?v=wrhM0dlG-Yo&list=PL145AyWAbMDgy-otHhk8SH-CqFuimxckK&index=8
